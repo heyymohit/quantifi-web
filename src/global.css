@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+@font-face {
+  font-family: "Outfit";
+  src: url("/public/Outfit-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("/public/Outfit-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("/public/Outfit-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "BalooBhai";
+  src: url("/public/BalooBhai2-VariableFont_wght.ttf");
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --feature-heading: Outfit;
+  --feature-content: Roboto;
+  --baloobhai: BalooBhai;
+  /* font sizes */
+  --font-size-2xs: 11px;
+  --font-size-base: 16px;
+  --feature-content1-size: 25px;
+  --font-size-10xl: 29px;
+  --h1-main-heading-size: 80px;
+  --feature-content-size: 34px;
+  --feature-heading-size: 55px;
+  --body-text-size: 20px;
+  --font-size-43xl: 62px;
+  --feature-heading1-size: 40px;
+
+  /* Colors */
+  --app-f-heading: #0400ff;
+  --qbandappabout: #fff;
+  --color-cornflowerblue: #9191dc;
+  --color-gray: rgba(255, 255, 255, 0.8);
+  --color-lightskyblue: #6dcaf1;
+  --color-aqua: #01ffff;
+  --app-f-heading1: #000;
+  --rec-color: #110dc6;
+
+  /* Gaps */
+  --gap-3xs: 10px;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+
+  /* Border radiuses */
+  --br-4xl: 23px;
+  --br-9xl: 28px;
+  --br-33xl: 52px;
+}
