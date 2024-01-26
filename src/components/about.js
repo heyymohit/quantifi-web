@@ -6,9 +6,8 @@ const AboutSection = () => {
     return (
         <div className={styles.aiImageAboutus} id="aboutSection">
             <div className={styles.aboutUs}>
-                {/* Quantifi Is Born Container */}
                 <div className={styles.quantifiIsBornContainer}>
-                    <p className={styles.wellnessInsightsHrv}>
+                    <p>
                         <span>
                             Quantifi is born from a vision to bridge the gap between fitness
                             tracking technology, particularly in the realm of gym workouts, and
@@ -62,9 +61,8 @@ const AboutSection = () => {
                         <span className={styles.seamlesslyIntegratedWith}>.</span>
                     </p>
                 </div>
-                {/* About Us Section Heading */}
                 <b className={styles.aboutUs1}>
-                    <p className={styles.wellnessInsightsHrv_H}>ABOUT US</p>
+                    <p>ABOUT US</p>
                 </b>
             </div>
         </div>

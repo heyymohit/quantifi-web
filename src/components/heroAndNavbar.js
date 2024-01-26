@@ -12,7 +12,6 @@ const HeroAndNavbarSection = () => {
 
     return (
         <div className={styles.heroAndNavbarContainer} id="heroSection">
-            {/* Navbar */}
             <div className={styles.navbar}>
                 <b className={styles.quantifi1} onClick={() => handleScroll("heroSection")} style={{ cursor: "pointer" }}>
                     Quantifi
@@ -23,15 +22,11 @@ const HeroAndNavbarSection = () => {
                 <b className={styles.features} onClick={() => handleScroll("qBandSection")} style={{ cursor: "pointer" }}>
                     features
                 </b>
-                {/* Add more items as needed */}
                 <b className={styles.join} style={{ cursor: "pointer" }}>
                     join
                 </b>
             </div>
-
-            {/* Hero Section */}
             <div className={styles.heroSection}>
-                {/* Down Chevron and Screenshot Images */}
                 <img
                     className={styles.downChevron1Icon}
                     alt="Down Chevron"
@@ -44,16 +39,14 @@ const HeroAndNavbarSection = () => {
                     alt="Screenshot"
                     src="/screenshot-20231227-022923-1@2x.png"
                 />
-                <b className={styles.quantifyFitnessAnalytics}>
+                <b className={styles.heading}>
                     Quantify Fitness Analytics with AI and Smart Sensors
                 </b>
-                <div className={styles.cateringToThe}>
+                <div className={styles.description}>
                     Catering to the Personalized Needs of Powerlifters, Bodybuilders, and
                     Gym Enthusiasts – Seizing the Future of Quantified Self
                 </div>
-                {/* Join Waitlist Section */}
-                <div className={styles.rectangleParent}>
-                    <div className={styles.groupChild} />
+                <div className={styles.button}>
                     <div className={styles.joinWaitlist}>Join Waitlist</div>
                 </div>
             </div>

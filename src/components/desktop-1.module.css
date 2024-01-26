@@ -1,3 +1,19 @@
+.quantifi {
+  position: relative;
+  background-color: var(--app-f-heading1);
+  width: 100%;
+  height: 4900px;
+  padding: 0 !important;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--feature-heading1-size);
+  color: var(--qbandappabout);
+  font-family: var(--feature-heading);
+}
+
+/* HERO AND NAVBAR */
+
 .heroAndNavbarContainer {
   position: relative;
   width: 100%;
@@ -7,56 +23,13 @@
 .heroAndNavbarContainer::before {
   content: '';
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   background-image: url('../../public/3d-render-modern-background-with-flowing-connecting-lines-dots.jpg');
-  /* Replace with the actual path to your image */
   background-size: 130% 150%;
   background-position: center;
   background-repeat: no-repeat;
-  filter: brightness(70%) contrast(130%) opacity(30%) blur(1px) drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5));
-}
-
-/* Your other styles for child elements go here */
-
-
-.quantifi1 {
-  position: absolute;
-  left: 0;
-  text-transform: uppercase;
-}
-
-.about,
-.features,
-.quantifi1,
-.join {
-  top: 0;
-  line-height: 27.5px;
-  font-weight: normal;
-  font-family: var(--baloobhai);
-}
-
-.about {
-  position: absolute;
-  left: 645px;
-}
-
-.features {
-  left: 801px;
-}
-
-.features,
-.join,
-.navbar {
-  position: absolute;
-}
-
-.join {
-  top: 0;
-  left: 981px;
-  line-height: 27.5px;
+  filter: brightness(70%) contrast(130%) opacity(30%) blur(1px);
 }
 
 .navbar {
@@ -70,81 +43,30 @@
   font-size: var(--body-text-size);
 }
 
-.downChevron1Icon {
+.about,
+.features,
+.quantifi1,
+.join {
   position: absolute;
-  top: 580px;
-  left: 500.9px;
-  width: 50.9px;
-  height: 50.9px;
-  object-fit: cover;
-  filter: brightness(150%) contrast(200%) opacity(100%) drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5));
-}
-
-.screenshot202312270229231 {
-  position: absolute;
-  bottom: 280px;
-  left: 650px;
-  width: 500px;
-  height: 500px;
-  object-fit: cover;
-}
-
-.cateringToThe,
-.quantifyFitnessAnalytics {
-  position: absolute;
-  left: 0;
-  display: inline-block;
-}
-
-.quantifyFitnessAnalytics {
-  top: 100px;
-  line-height: 100%;
-  text-transform: capitalize;
-  width: 630px;
-  height: 431px;
-}
-
-.cateringToThe {
-  top: 410px;
-  font-size: var(--body-text-size);
   line-height: 27.5px;
-  font-family: var(--feature-content);
-  width: 599px;
-  height: 44px;
+  font-weight: normal;
+  font-family: var(--baloobhai);
 }
 
-.groupChild {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: var(--br-33xl);
-  background-color: rgb(6, 12, 182);
-  width: 189px;
-  height: 51px;
-}
-
-.joinWaitlist {
-  position: absolute;
-  top: 12px;
-  left: 25px;
-  letter-spacing: 0.1em;
-  line-height: 27.5px;
+.quantifi1 {
   text-transform: uppercase;
-  font-weight: 350;
-  display: inline-block;
-  width: 175px;
-  height: 29px;
-  color: rgb(255, 255, 255);
-
 }
 
-.rectangleParent {
-  position: absolute;
-  top: 490px;
-  left: 0px;
-  width: 200px;
-  height: 51px;
-  font-size: 17px;
+.about {
+  left: 645px;
+}
+
+.features {
+  left: 801px;
+}
+
+.join {
+  left: 981px;
 }
 
 .heroSection {
@@ -156,210 +78,71 @@
   height: 778.8px;
   z-index: 1;
   font-size: 75px;
-  mix-blend-mode: screen;
-
 }
 
-.intensityAndVolume,
-.monitorRealTimeIntensity {
+.downChevron1Icon {
   position: absolute;
-  line-height: 100%;
-  display: inline-block;
+  top: 580px;
+  left: 500.9px;
+  width: 30.9px;
+  height: 30.9px;
+  object-fit: cover;
+  filter: brightness(150%) contrast(200%) opacity(100%);
 }
 
-.intensityAndVolume {
-  top: 0;
-  left: 0;
-  text-transform: capitalize;
-  width: 433.4px;
-  height: 151px;
-}
-
-.monitorRealTimeIntensity {
-  top: 85.8px;
-  left: 0px;
-  font-size: var(--feature-content1-size);
-  color: var(--qbandappabout);
-  white-space: pre-wrap;
-  text-align: left;
-  width: 412.6px;
-  height: 187.2px;
-  font-weight: normal;
-
-}
-
-.feature4 {
+.screenshot202312270229231 {
   position: absolute;
-  top: 930px;
-  left: 0;
-  width: 435px;
-  height: 273px;
+  bottom: 280px;
+  left: 650px;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
 }
 
-.wellnessInsightsHrv {
-  margin: 0;
-  font-weight: normal;
-}
-
-.wellnessInsightsHrv_H {
-  margin: 0;
-  font-weight: bold;
-}
-
-.wellnessInsightsHrvContainer {
+.heading {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 100px;
   line-height: 100%;
   text-transform: capitalize;
+  width: 630px;
+  height: 431px;
+}
+
+.description {
+  position: absolute;
+  top: 410px;
+  font-size: var(--body-text-size);
+  line-height: 27.5px;
+  font-family: var(--feature-content);
+  width: 599px;
+  height: 44px;
+}
+
+.button {
+  position: absolute;
+  top: 490px;
+  width: 190px;
+  height: 51px;
+  font-size: 17px;
+  border-radius: var(--br-33xl);
+  background-color: rgb(6, 12, 182);
+}
+
+.joinWaitlist {
+  position: absolute;
+  top: 12px;
+  left: 25px;
+  letter-spacing: 0.1em;
+  line-height: 27.5px;
+  text-transform: uppercase;
+  font-weight: 350;
   display: inline-block;
-  width: 497px;
-  height: 112.7px;
+  width: 150px;
+  height: 29px;
+  color: rgb(255, 255, 255);
 }
 
-.optimizeYourWellBeingContainer {
-  position: absolute;
-  top: 157px;
-  left: 0;
-  font-size: var(--feature-content1-size);
-  line-height: 100%;
-  display: inline-block;
-  color: var(--qbandappabout);
-  width: 495px;
-  height: 421.4px;
-}
-
-.feature5 {
-  position: absolute;
-  top: 549px;
-  left: 0px;
-  width: 497px;
-  height: 578.4px;
-}
-
-.leaveTraditional1rmContainer,
-.velocityBasedTraining {
-  position: absolute;
-  left: 0;
-  line-height: 100%;
-  display: inline-block;
-}
-
-.velocityBasedTraining {
-  top: 0;
-  text-transform: capitalize;
-  width: 475px;
-  height: 107.3px;
-}
-
-.leaveTraditional1rmContainer {
-  top: 107px;
-  font-size: var(--feature-content1-size);
-  color: var(--qbandappabout);
-  width: 394.9px;
-  height: 536px;
-}
-
-.feature3 {
-  position: absolute;
-  top: 549px;
-  left: 556px;
-  width: 475px;
-  height: 643px;
-}
-
-.discoverTheFuture,
-.realTimeExerciseRecognition {
-  position: absolute;
-  line-height: 100%;
-  display: inline-block;
-}
-
-.realTimeExerciseRecognition {
-  top: 0;
-  left: 0.5px;
-  text-transform: capitalize;
-  width: 508.5px;
-  height: 126.8px;
-}
-
-.discoverTheFuture {
-  top: 113.7px;
-  left: 0;
-  font-size: var(--feature-content1-size);
-  color: var(--qbandappabout);
-  width: 465px;
-  height: 248.3px;
-  font-weight: normal;
-}
-
-.feature2 {
-  position: absolute;
-  top: 209px;
-  left: 545px;
-  width: 509px;
-  height: 362px;
-}
-
-.autoTrackingOf,
-.introducingAutoTrackingEff {
-  position: absolute;
-  line-height: 100%;
-  display: inline-block;
-}
-
-.autoTrackingOf {
-  top: 0;
-  left: 0.6px;
-  text-transform: capitalize;
-  width: 506.4px;
-  height: 87.9px;
-}
-
-.introducingAutoTrackingEff {
-  top: 87.7px;
-  left: 0;
-  font-size: var(--feature-content1-size);
-  color: var(--qbandappabout);
-  width: 433.5px;
-  height: 172.3px;
-  font-weight: normal;
-
-}
-
-.feature1 {
-  position: absolute;
-  top: 209px;
-  left: 1px;
-  width: 512px;
-  height: 260px;
-}
-
-.theQBandContainer {
-  position: absolute;
-  top: 0;
-  left: 252px;
-  font-size: var(--font-size-43xl);
-  line-height: 100%;
-  text-transform: capitalize;
-  display: inline-block;
-  color: var(--qbandappabout);
-  text-align: center;
-  width: 412px;
-  height: 235px;
-  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
-}
-
-.qBandFeatures {
-  position: absolute;
-  margin: 0 !important;
-  top: 90px;
-  left: 259px;
-  width: 1054px;
-  height: 1276px;
-  z-index: 2;
-  color: var(--rec-color);
-}
+/* Q BAND */
 
 .aiImageQband {
   position: relative;
@@ -375,202 +158,111 @@
   width: 100%;
   height: 100%;
   background-image: url('../../public/958584_4663.jpg');
-  /* Replace with the actual path to your image */
   background-size: 330% 335%;
   background-position: center;
   background-repeat: no-repeat;
   filter: brightness(75%) contrast(180%) opacity(32%) blur(6px);
 }
 
-.feature4Child {
+.theQBandContainer {
   position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: var(--br-33xl);
-  background-color: var(--rec-color);
-  border: 1px solid var(--app-f-heading1);
-  box-sizing: border-box;
-  width: 357px;
-  height: 613px;
-  filter: opacity(75%);
-}
-
-.blogarticleSection,
-.discoverATroveContainer {
-  position: absolute;
-  left: 40px;
-  line-height: 100%;
-  display: inline-block;
-}
-
-.blogarticleSection {
-  top: 29px;
+  bottom: 1110px;
+  left: 252px;
+  font-size: var(--font-size-43xl);
+  line-height: 10%;
   text-transform: capitalize;
-  width: 330.6px;
-  height: 114.4px;
-}
-
-.discoverATroveContainer {
-  top: 143px;
-  font-size: var(--feature-content1-size);
   color: var(--qbandappabout);
-  width: 298px;
-  height: 428px;
+  text-align: center;
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
 }
 
-.feature3Child,
-.feature41 {
+.qBandFeatures {
   position: absolute;
-  top: 720px;
-  left: 457px;
-  width: 370.6px;
-  height: 613px;
+  margin: 0 !important;
+  top: 90px;
+  left: 259px;
+  width: 1054px;
+  height: 1276px;
+  z-index: 2;
+  color: var(--rec-color);
 }
 
-.feature3Child {
-  top: 0;
-  left: 0;
-  border-radius: var(--br-33xl);
-  background-color: var(--rec-color);
-  border: 1px solid var(--app-f-heading1);
-  box-sizing: border-box;
-  width: 358.8px;
-  height: 613.1px;
-  filter: opacity(75%);
-}
-
-.everydayStreak,
-.transformConsistencyIntoContainer {
+.feature5 {
   position: absolute;
-  line-height: 100%;
-  display: inline-block;
+  top: 549px;
+  width: 497px;
 }
 
-.everydayStreak {
-  top: 34.7px;
-  left: 26.6px;
-  text-transform: capitalize;
-  width: 387.4px;
-  height: 115.2px;
-}
-
-.transformConsistencyIntoContainer {
-  top: 104.1px;
-  left: 24.5px;
-  font-size: var(--feature-content1-size);
-  color: var(--qbandappabout);
-  width: 322.4px;
-  height: 428.4px;
-}
-
-.feature2Child,
-.feature31 {
+.feature4 {
   position: absolute;
-  top: 720px;
-  left: 7px;
-  width: 414px;
-  height: 613.1px;
+  top: 930px;
+  width: 435px;
+  height: 273px;
 }
 
-.feature2Child {
-  top: 0;
-  left: 0;
-  border-radius: var(--br-33xl);
-  background-color: var(--rec-color);
-  border: 1px solid var(--app-f-heading1);
-  box-sizing: border-box;
-  width: 350.2px;
-  height: 503.4px;
-  filter: opacity(75%);
-}
-
-.featuringADiverse,
-.muscleTrainingLibrary {
+.feature3 {
   position: absolute;
-  line-height: 100%;
-  display: inline-block;
+  top: 549px;
+  left: 556px;
+  width: 475px;
+  height: 643px;
 }
 
-.muscleTrainingLibrary {
-  top: 24px;
-  left: 28px;
-  text-transform: capitalize;
-  width: 381.7px;
-  height: 104.1px;
-}
-
-.featuringADiverse {
-  top: 121px;
-  left: 33px;
-  font-size: var(--feature-content1-size);
-  color: var(--qbandappabout);
-  width: 317px;
-  height: 336px;
-  font-weight: normal;
-}
-
-.feature1Child,
-.feature21 {
+.feature2 {
   position: absolute;
-  top: 195px;
-  left: 464px;
-  width: 409.7px;
-  height: 503.4px;
+  top: 209px;
+  left: 545px;
+  width: 509px;
+  height: 362px;
 }
 
-.feature1Child {
-  top: 0;
-  left: 0;
-  border-radius: var(--br-33xl);
-  background-color: var(--rec-color);
-  border: 1px solid var(--app-f-heading1);
-  box-sizing: border-box;
-  width: 364.1px;
-  filter: opacity(75%);
-}
-
-.specializedSocialClubs {
+.feature1 {
   position: absolute;
-  top: 23.7px;
-  left: 21.9px;
-  line-height: 100%;
-  text-transform: capitalize;
-  display: inline-block;
-  width: 384.1px;
-  height: 97.6px;
+  top: 209px;
+  left: 1px;
+  width: 512px;
 }
 
-.joinAndConnect {
-  margin-bottom: 0;
-}
-
-.joinAndConnectWithLikeMin {
+.feature5Heading,
+.feature4Heading,
+.feature3Heading,
+.feature2Heading,
+.feature1Heading {
   margin: 0;
-  font-family: inherit;
-  font-size: inherit;
-  padding-left: 33px;
-  font-weight: normal;
-
+  font-weight: bold;
 }
 
-.joinAndConnectContainer {
-  position: absolute;
-  top: 121.5px;
-  left: 21.9px;
+.feature5Content,
+.feature4Content,
+.feature4Content,
+.feature3Content,
+.feature2Content,
+.feature1Content {
+  font-weight: normal;
   font-size: var(--feature-content1-size);
   line-height: 100%;
-  display: inline-block;
   color: var(--qbandappabout);
-  width: 325.9px;
-  height: 363.7px;
 }
 
-.feature11 {
+/*InApp*/
+
+.aiImageInApp {
+  position: relative;
+  width: 100%;
+  height: 1500px;
+}
+
+.aiImageInApp::before {
+  content: '';
   position: absolute;
-  top: 195px;
-  left: 0;
-  width: 406px;
-  height: 503.4px;
+  top: 100px;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../public/13304735_SL-091319-23410-49.jpg');
+  background-size: 150% 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(120%) contrast(150%) opacity(40%) blur(1px);
 }
 
 .inAppFeaturesContainer {
@@ -578,9 +270,8 @@
   bottom: 1220px;
   left: 176px;
   font-size: var(--font-size-43xl);
-  line-height: 100%;
+  line-height: 10%;
   text-transform: capitalize;
-  display: inline-block;
   color: var(--qbandappabout);
   text-align: center;
   width: 456.5px;
@@ -599,25 +290,164 @@
   color: var(--app-f-heading1);
 }
 
-.aiImageInApp {
-  position: relative;
-  width: 100%;
-  height: 1500px;
+.feature4_2 {
+  position: absolute;
+  top: 720px;
+  left: 457px;
+  width: 370.6px;
+  height: 613px;
 }
 
-.aiImageInApp::before {
+.feature3_1 {
+  position: absolute;
+  top: 720px;
+  left: 7px;
+  width: 414px;
+  height: 613.1px;
+}
+
+.feature2_1 {
+  position: absolute;
+  top: 195px;
+  left: 464px;
+  width: 409.7px;
+  height: 503.4px;
+}
+
+.feature1_2 {
+  position: absolute;
+  top: 195px;
+  width: 406px;
+  height: 503.4px;
+}
+
+.feature4Card,
+.feature3Card {
+  position: absolute;
+  border-radius: var(--br-33xl);
+  background-color: var(--rec-color);
+  border: 1px solid var(--app-f-heading1);
+  box-sizing: border-box;
+  width: 357px;
+  height: 613px;
+  filter: opacity(75%);
+}
+
+.feature2Card,
+.feature1Card {
+  position: absolute;
+  border-radius: var(--br-33xl);
+  background-color: var(--rec-color);
+  border: 1px solid var(--app-f-heading1);
+  box-sizing: border-box;
+  width: 357px;
+  height: 503.4px;
+  filter: opacity(75%);
+}
+
+.feature4_2Heading,
+.feature3_2Heading,
+.feature2_2Heading,
+.feature1_2Heading {
+  position: absolute;
+  width: 330.6px;
+  height: 114.4px;
+  left: 40px;
+  top: 30px;
+}
+
+.feature4_2Content,
+.feature3_2Content,
+.feature2_2Content {
+  position: absolute;
+  font-size: var(--feature-content1-size);
+  color: var(--qbandappabout);
+  width: 298px;
+  line-height: 100%;
+  left: 40px;
+  top: 70px;
+  font-weight: normal;
+}
+
+.feature4_2Content {
+  top: 120px !important;
+}
+
+.feature2_2Content {
+  top: 140px !important;
+}
+
+.joinAndConnectContainer {
+  position: absolute;
+  top: 150.5px;
+  left: 21.9px;
+  font-size: var(--feature-content1-size);
+  line-height: 100%;
+  color: var(--qbandappabout);
+  width: 325.9px;
+  height: 363.7px;
+}
+
+.clubs {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 33px;
+  font-weight: normal;
+}
+
+.joinAndConnect {
+  margin-bottom: 0;
+}
+
+/*ABOUT*/
+
+.aiImageAboutus {
+  position: relative;
+  width: 100%;
+  height: 800px;
+}
+
+.aiImageAboutus::before {
   content: '';
   position: absolute;
-  top: 100px;
-  left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('../../public/13304735_SL-091319-23410-49.jpg');
-  /* Replace with the actual path to your image */
-  background-size: 150% 110%;
+  background-image: url('../../public/desmumtz15.jpg');
+  background-size: 170% 150%;
   background-position: center;
   background-repeat: no-repeat;
-  filter: brightness(120%) contrast(150%) opacity(40%) blur(1px) drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5));
+  filter: brightness(100%) contrast(150%) opacity(60%) blur(3px);
+}
+
+.aboutUs {
+  position: absolute;
+  margin: 0 !important;
+  top: 90px;
+  left: 247px;
+  width: 1043px;
+  height: 600px;
+  z-index: 4;
+}
+
+.quantifiIsBornContainer {
+  position: absolute;
+  font-size: 30px;
+  top: 122px;
+  font-weight: 500;
+  width: 1043px;
+  height: 800px;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  line-height: 100%;
+}
+
+.aboutUs1 {
+  text-transform: capitalize;
+  font-size: var(--font-size-43xl);
+  text-align: center;
+  width: 509.2px;
+  height: 243.4px;
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
 }
 
 .socialCommunitiesAnd {
@@ -634,81 +464,27 @@
 
 .stayTunedForTheUnveilingO {
   margin: 0;
-  color: var(--rec-color);
+  color: white;
 }
 
-.aboutUs1,
-.quantifiIsBornContainer {
-  position: absolute;
-  line-height: 100%;
-  text-transform: capitalize;
-  display: inline-block;
-}
+/*Footer*/
 
-.quantifiIsBornContainer {
-  font-size: 30px;
-  top: 122px;
-  left: 0;
-  font-weight: 500;
-  width: 1043px;
-  height: 800px;
-  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.aboutUs1 {
-  top: 0;
-  left: 215px;
-  font-size: var(--font-size-43xl);
-  text-align: center;
-  width: 509.2px;
-  height: 243.4px;
-  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
-}
-
-.aboutUs {
+.footer {
   position: absolute;
   margin: 0 !important;
-  top: 90px;
-  left: 247px;
-  width: 1043px;
-  height: 600px;
-  z-index: 4;
-}
-
-.aiImageAboutus {
-  position: relative;
-  width: 100%;
-  height: 800px;
-}
-
-.aiImageAboutus::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('../../public/desmumtz15.jpg');
-  /* Replace with the actual path to your image */
-  background-size: 170% 150%;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: brightness(100%) contrast(150%) opacity(60%) blur(3px) drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5));
+  top: 4650px;
+  left: 224px;
+  width: 1083px;
+  height: 242px;
+  z-index: 5;
+  font-size: var(--font-size-10xl);
 }
 
 .quantifiLogo {
   position: absolute;
   bottom: 80px;
-  left: 0;
   width: 100px;
   height: 100px;
-}
-
-.quantifi3 {
-  top: -3px;
-  left: 261px;
-  display: inline-block;
-  width: 113px;
 }
 
 .contact,
@@ -718,39 +494,49 @@
   font-weight: 600;
 }
 
+.quantifi3 {
+  left: 261px;
+}
+
 .contact {
-  top: 0;
   left: 529px;
-  display: inline-block;
-  width: 128px;
 }
 
 .joinWaitlist1 {
-  top: -2px;
   left: 828px;
 }
 
 .emailLinkedinInstagramContainer,
 .homeAboutQContainer {
   position: absolute;
-  top: 51px;
-  left: 261px;
+  top: 40px;
   font-size: 19px;
   line-height: 31px;
   font-family: var(--baloobhai);
-  display: inline-block;
   width: 215px;
+}
+
+.homeAboutQContainer {
+  left: 261px;
 }
 
 .emailLinkedinInstagramContainer {
   left: 529px;
-  width: 146px;
+}
+
+.waitlistButton {
+  position: absolute;
+  top: 62px;
+  left: 737px;
+  width: 346.1px;
+  height: 44.2px;
+  font-size: var(--font-size-base);
+  color: var(--color-gray);
+  font-family: var(--feature-content);
 }
 
 .waitlistButtonChild {
   position: absolute;
-  top: 0;
-  left: 0;
   border-radius: var(--br-9xl);
   background-color: var(--rec-color);
   width: 346px;
@@ -766,31 +552,6 @@
   width: 113px;
 }
 
-.groupItem {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: var(--br-4xl);
-  background-color: var(--app-f-heading);
-  width: 89.1px;
-  height: 43.2px;
-}
-
-.submit {
-  position: absolute;
-  top: 10.6px;
-  left: 10.6px;
-  letter-spacing: 0.1em;
-  line-height: 27.5px;
-  text-transform: uppercase;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 68px;
-  height: 22.8px;
-}
-
 .rectangleGroup {
   position: absolute;
   top: 1px;
@@ -803,44 +564,23 @@
   font-family: var(--feature-heading);
 }
 
-.waitlistButton {
+.groupItem {
   position: absolute;
-  top: 62px;
-  left: 737px;
-  width: 346.1px;
-  height: 44.2px;
-  font-size: var(--font-size-base);
-  color: var(--color-gray);
-  font-family: var(--feature-content);
+  border-radius: var(--br-4xl);
+  background-color: var(--app-f-heading);
+  width: 89.1px;
+  height: 43.2px;
 }
 
-.footer {
+.submit {
   position: absolute;
-  margin: 0 !important;
-  top: 4650px;
-  left: 224px;
-  width: 1083px;
-  height: 242px;
-  overflow: hidden;
-  flex-shrink: 0;
-  z-index: 5;
-  font-size: var(--font-size-10xl);
-}
-
-.quantifi {
-  position: relative;
-  background-color: var(--app-f-heading1);
-  width: 100%;
-  height: 4900px;
-  padding: 0 !important;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-3xs);
-  box-sizing: border-box;
-  text-align: left;
-  font-size: var(--feature-heading1-size);
-  color: var(--qbandappabout);
-  font-family: var(--feature-heading);
+  top: 6.6px;
+  left: 10.6px;
+  letter-spacing: 0.1em;
+  line-height: 27.5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  align-items: center;
+  width: 68px;
+  height: 22.8px;
 }

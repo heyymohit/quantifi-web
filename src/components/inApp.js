@@ -6,14 +6,13 @@ const InAppSection = () => {
     return (
         <div className={styles.aiImageInApp} id="inAppSection">
             <div className={styles.inAppFeatures}>
-                {/* Feature 1.1 */}
-                <div className={styles.feature11}>
-                    <div className={styles.feature1Child} />
-                    <b className={styles.specializedSocialClubs}>
+                <div className={styles.feature1_2}>
+                    <div className={styles.feature1Card} />
+                    <b className={styles.feature1_2Heading}>
                         Specialized Gym Clubs
                     </b>
                     <b className={styles.joinAndConnectContainer}>
-                        <ul className={styles.joinAndConnectWithLikeMin}>
+                        <ul className={styles.clubs}>
                             <li className={styles.joinAndConnect}>
                                 Join and connect with like-minded individuals sharing similar
                                 fitness goals for collective growth.
@@ -29,14 +28,12 @@ const InAppSection = () => {
                         </ul>
                     </b>
                 </div>
-
-                {/* Feature 2.1 */}
-                <div className={styles.feature21}>
-                    <div className={styles.feature2Child} />
-                    <b className={styles.muscleTrainingLibrary}>
+                <div className={styles.feature2_1}>
+                    <div className={styles.feature2Card} />
+                    <b className={styles.feature2_2Heading}>
                         Muscle Training Library
                     </b>
-                    <b className={styles.featuringADiverse}>
+                    <b className={styles.feature2_2Content}>
                         Featuring a diverse range of science-backed exercises for every
                         muscle group. Clear technique demonstrations ensure proper form,
                         making your workouts effective and safe. Whether you're a beginner
@@ -44,13 +41,11 @@ const InAppSection = () => {
                         knowing each exercise is grounded in scientific principles.
                     </b>
                 </div>
-
-                {/* Feature 3.1 */}
-                <div className={styles.feature31}>
-                    <div className={styles.feature3Child} />
-                    <b className={styles.everydayStreak}>Everyday Streak</b>
-                    <b className={styles.transformConsistencyIntoContainer}>
-                        <p className={styles.wellnessInsightsHrv}>
+                <div className={styles.feature3_1}>
+                    <div className={styles.feature3Card} />
+                    <b className={styles.feature3_2Heading}>Everyday Streak</b>
+                    <b className={styles.feature3_2Content}>
+                        <p>
                             Transform consistency into triumph with our Everyday Streak
                             feature. Whether it's fitness, learning, or mindfulness, this tool
                             keeps you accountable, turning daily actions into significant
@@ -62,15 +57,11 @@ const InAppSection = () => {
                         </p>
                     </b>
                 </div>
-
-                {/* Feature 4.1 */}
-                <div className={styles.feature41}>
-                    <div className={styles.feature4Child} />
-                    <b className={styles.blogarticleSection}>
-                        <p className={styles.wellnessInsightsHrv_H}>Blog/Article section</p>
-                    </b>
-                    <b className={styles.discoverATroveContainer}>
-                        <p className={styles.wellnessInsightsHrv}>
+                <div className={styles.feature4_2}>
+                    <div className={styles.feature4Card} />
+                    <b className={styles.feature4_2Heading}>Blog/Article section</b>
+                    <b className={styles.feature4_2Content}>
+                        <p>
                             Discover a trove of insights in our Blog/Article section. From
                             expert advice and workout routines to nutritional guidance and
                             success stories, find everything you need to enhance your wellness
@@ -80,11 +71,9 @@ const InAppSection = () => {
                         </p>
                     </b>
                 </div>
-
-                {/* In-App Features Heading */}
                 <b className={styles.inAppFeaturesContainer}>
-                    <p className={styles.wellnessInsightsHrv_H}>In app</p>
-                    <p className={styles.wellnessInsightsHrv_H}>features</p>
+                    <p>In app</p>
+                    <p>features</p>
                 </b>
             </div>
         </div>
